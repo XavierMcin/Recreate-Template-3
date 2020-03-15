@@ -1,0 +1,140 @@
+
+@import "./mixin";
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    font-family: 'Sen', sans-serif;
+}
+
+
+
+
+/*===========================*/
+/*=========UI STYLES=========*/
+/*===========================*/
+
+
+header {
+    width: 100%;
+    height: 105px;
+    background-color: rgb(66, 21, 64);
+    @include flexBox(row);
+    justify-content: center;
+
+    .header-container {
+        width: 100%;
+        height: 100%;
+        max-width: 1140px;
+        background-color: rgb(41, 43, 139);
+        @include flexBox(row);
+        justify-content: space-between;
+
+        .site-logo {
+            width: 250px;
+            height: 100%;
+            background-color: rgb(33, 85, 138);
+        }
+
+        .top-navigation {
+            width: 250px;
+            height: 100%;
+            background-color: rgb(29, 104, 48);
+        }
+    }
+}
+
+main {
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+/*=====================*/
+/*====FIRST SECTION====*/
+/*=====================*/
+
+
+#first {
+    overflow: hidden;
+    @include flexBox(row);
+    justify-content: center;
+
+    .first-container {
+        width: 100%;
+        max-width: 1140px;
+        height: 630px;
+        background-color: rgb(122, 94, 17);
+        overflow: hidden;
+        @include flexBox(column);
+
+        h2 {
+            text-align: center;
+            color: $mainColor;
+        }
+
+        .first-content {
+            height: 100%;
+            background-color: rgb(97, 115, 138);
+            @include flexBox(row);
+            justify-content: space-between;
+
+            & > div {
+                background-color: maroon;
+                height: 85%;
+                max-height: 478px;
+
+                &:first-of-type {
+                    width: 50%;
+                    position: relative;
+                    @include imgCurve();
+                    @include beforeHover();
+
+                    img {
+                        @include siteImg();
+                    }
+                }
+
+                &:nth-of-type(2) {
+                    width: 22.5%;
+
+                    div {
+                        width: 100%;
+                        height: 70%;
+                        background-color: rgb(99, 138, 73);
+                        position: relative;
+                        @include imgCurve();
+                        @include beforeHover();
+
+                        img {
+                            @include siteImg();
+                        }
+                    }
+                }
+
+                &:last-of-type {
+                    width: 22.5%;
+                }
+            }
+        }
+    }
+}
