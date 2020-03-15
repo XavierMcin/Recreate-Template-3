@@ -101,8 +101,13 @@ main {
           flex-direction: column;
 }
 
-#first .first-container h2 {
+#first .first-container > h2 {
   text-align: center;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+#first .first-container > h2 span {
   color: #6665DD;
 }
 
@@ -148,6 +153,51 @@ main {
   background-color: transparent;
 }
 
+#first .first-container .first-content > div:first-of-type div {
+  position: absolute;
+  width: 90%;
+  height: 25%;
+  bottom: 30px;
+  margin-left: 25px;
+  -webkit-transition: bottom .3s ease-in-out;
+  transition: bottom .3s ease-in-out;
+}
+
+#first .first-container .first-content > div:first-of-type div p {
+  color: #ffffff;
+}
+
+#first .first-container .first-content > div:first-of-type div p:first-of-type {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+#first .first-container .first-content > div:first-of-type div p:first-of-type span {
+  display: block;
+}
+
+#first .first-container .first-content > div:first-of-type div p:last-of-type {
+  font-size: .9em;
+  margin-top: 5px;
+  opacity: 0;
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+  -webkit-transition: opacity .2s ease-in-out .1s, -webkit-transform .2s ease-in-out .1s;
+  transition: opacity .2s ease-in-out .1s, -webkit-transform .2s ease-in-out .1s;
+  transition: transform .2s ease-in-out .1s, opacity .2s ease-in-out .1s;
+  transition: transform .2s ease-in-out .1s, opacity .2s ease-in-out .1s, -webkit-transform .2s ease-in-out .1s;
+}
+
+#first .first-container .first-content > div:first-of-type:hover div {
+  bottom: 60px;
+}
+
+#first .first-container .first-content > div:first-of-type:hover div p:last-of-type {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  opacity: 1;
+}
+
 #first .first-container .first-content > div:first-of-type img {
   width: 100%;
   height: 100%;
@@ -157,6 +207,27 @@ main {
 
 #first .first-container .first-content > div:nth-of-type(2) {
   width: 22.5%;
+}
+
+#first .first-container .first-content > div:nth-of-type(2) h2 {
+  font-size: 1.3em;
+}
+
+#first .first-container .first-content > div:nth-of-type(2) p:first-of-type {
+  font-size: .9em;
+}
+
+#first .first-container .first-content > div:nth-of-type(2) p:last-of-type {
+  font-size: 1em;
+  font-weight: 600;
+  color: #6665DD;
+  -webkit-transition: color .1s ease-in-out;
+  transition: color .1s ease-in-out;
+  cursor: pointer;
+}
+
+#first .first-container .first-content > div:nth-of-type(2) p:last-of-type:hover {
+  color: #151642;
 }
 
 #first .first-container .first-content > div:nth-of-type(2) div {
@@ -191,5 +262,56 @@ main {
 
 #first .first-container .first-content > div:last-of-type {
   width: 22.5%;
+}
+
+#first .first-container .first-content > div:last-of-type h2 {
+  font-size: 1.3em;
+}
+
+#first .first-container .first-content > div:last-of-type p:first-of-type {
+  font-size: .9em;
+}
+
+#first .first-container .first-content > div:last-of-type p:last-of-type {
+  font-size: 1em;
+  font-weight: 600;
+  color: #6665DD;
+  -webkit-transition: color .1s ease-in-out;
+  transition: color .1s ease-in-out;
+  cursor: pointer;
+}
+
+#first .first-container .first-content > div:last-of-type p:last-of-type:hover {
+  color: #151642;
+}
+
+#first .first-container .first-content > div:last-of-type div {
+  width: 100%;
+  height: 70%;
+  background-color: #638a49;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#first .first-container .first-content > div:last-of-type div::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.363);
+  -webkit-transition: background-color .2s ease-in-out;
+  transition: background-color .2s ease-in-out;
+}
+
+#first .first-container .first-content > div:last-of-type div:hover::before {
+  background-color: transparent;
+}
+
+#first .first-container .first-content > div:last-of-type div img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 /*# sourceMappingURL=main.css.map */

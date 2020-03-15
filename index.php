@@ -20,27 +20,43 @@
             <section id="first">
                 <div class="first-container container">
 
-                    <h2>Recent News</h2>
+                    <h2>Recent <span>News</span></h2>
 
                     <div class="first-content">
 
                         <div>
                             <img src="img/first-pic1.jpg" alt="spoons full of spices">
+                            
+                            <div>
+                                <p> A Table Full of Spoons Filled With Delicious Spices <br> <span>In Resturant</span></p>
+                                <p>Mar.15.2020</p>
+                            </div>
+
                         </div>
 
                         <div>
 
                             <div>
-                                <img src="img/first-pic2.jpg" alt="">
+                                <img src="img/first-pic2.jpg" alt="table of people eating">
                             </div>
 
-                            <h2>There are many stores that woory about their beef</h2>
+                            <h2>There are many stores that worry about beef</h2>
                             <p>BY PAUL DILLYO Mar 15, 2020</p>
                             <p>Read More</p>
 
                         </div>
 
-                        <div></div>
+                        <div>
+
+                            <div>
+                                <img src="img/first-pic3.jpg" alt="picture of nice juicy hamburger">
+                            </div>
+
+                            <h2>There are many stores that worry about beef</h2>
+                            <p>BY PAUL DILLYO Mar 15, 2020</p>
+                            <p>Read More</p>
+
+                        </div>
 
                     </div>
 
