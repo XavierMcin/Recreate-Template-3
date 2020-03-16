@@ -52,13 +52,13 @@ $mainColor: #6665DD;
 
 
 
-@mixin imgTransition($bottom) {
+@mixin imgTransition($bottom, $ml) {
     div {
         position: absolute;
         width: 90%;
         height: 25%;
         bottom: $bottom;
-        margin-left: 25px;
+        margin-left: $ml;
         transition: bottom .3s ease-in-out;
 
 
@@ -71,11 +71,13 @@ $mainColor: #6665DD;
 
                 span {
                     display: block;
+                    font-weight: 600;
                 }
             }
 
             &:last-of-type {
                 font-size: .9em;
+                font-weight: 600;
                 margin-top: 5px;
                 opacity: 0;
                 transform: translateY(10px);
@@ -95,5 +97,27 @@ $mainColor: #6665DD;
                 }
             }
         }
+    }
+}
+
+
+@mixin authorPic() {
+    width: 42px;
+    height: 42px;
+    position: relative;
+}
+
+
+@mixin authorCurve() {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+@mixin sectionTitle() {
+    font-size: 2em;
+    text-transform: uppercase;
+    span {
+        color: $mainColor;
     }
 }
