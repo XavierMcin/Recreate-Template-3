@@ -189,7 +189,90 @@
 
                             </div>
 
-                            <div class="bottom-practice"></div>
+                            <div class="bottom-practice">
+
+                                <div class="bPrac">
+                                    <div>
+                                        <img src="img/reads-pic1.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <h3>There Are Many Ways To Plant Tomatos</h3>
+                                        <p>By Paula Dillyo Mar 15, 2020</p>
+                                    </div>
+                                </div>
+
+                                <div class="bPrac">
+                                    <div>
+                                        <img src="img/reads-pic2.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <h3>There Are Many Ways To Plant Tomatos</h3>
+                                        <p>By Paula Dillyo Mar 15, 2020</p>
+                                    </div>
+                                </div>
+
+                                <div class="bPrac">
+                                    <div>
+                                        <img src="img/reads-pic3.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <h3>There Are Many Ways To Plant Tomatos</h3>
+                                        <p>By Paula Dillyo Mar 15, 2020</p>
+                                    </div>
+                                </div>
+
+                                <div class="bPrac">
+                                    <div>
+                                        <img src="img/reads-pic4.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <h3>There Are Many Ways To Plant Tomatos</h3>
+                                        <p>By Paula Dillyo Mar 15, 2020</p>
+                                    </div>
+                                </div>
+
+                                <div class="bPrac">
+                                    <div>
+                                        <img src="img/practices-pic3.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <h3>There Are Many Ways To Plant Tomatos</h3>
+                                        <p>By Paula Dillyo Mar 15, 2020</p>
+                                    </div>
+                                </div>
+
+                                <div class="bPrac">
+                                    <div>
+                                        <img src="img/practices-pic4.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <h3>There Are Many Ways To Plant Tomatos</h3>
+                                        <p>By Paula Dillyo Mar 15, 2020</p>
+                                    </div>
+                                </div>
+
+                                <div class="bPrac">
+                                    <div>
+                                        <img src="img/practices-pic5.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <h3>There Are Many Ways To Plant Tomatos</h3>
+                                        <p>By Paula Dillyo Mar 15, 2020</p>
+                                    </div>
+                                </div>
+
+                                <div class="bPrac">
+                                    <div>
+                                        <img src="img/practices-pic6.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <h3>There Are Many Ways To Plant Tomatos</h3>
+                                        <p>By Paula Dillyo Mar 15, 2020</p>
+                                    </div>
+                                </div>
+                                
+
+                            </div>
 
                         </div>
 
@@ -266,6 +349,50 @@
                             </div>
 
                         </div>
+
+
+
+
+
+
+                        <!-- CATEGORIES -->
+
+                        <div class="categories">
+                            <h2>Top <span>Categories</span></h2>
+
+                            <div class="main-categories">
+
+                                <div class="cats">
+                                    <div><img src="img/practices-pic6.jpg" alt=""></div>
+                                    <h3>Resturants</h3>
+                                </div>
+
+                                <div class="cats">
+                                    <div><img src="img/reads-pic1.jpg" alt=""></div>
+                                    <h3>Street Food</h3>
+                                </div>
+
+                                <div class="cats">
+                                    <div><img src="img/practices-pic4.jpg" alt=""></div>
+                                    <h3>Culture</h3>
+                                </div>
+
+                                <div class="cats">
+                                    <div><img src="img/practices-pic5.jpg" alt=""></div>
+                                    <h3>Practices</h3>
+                                </div>
+
+                                <div class="cats">
+                                    <div><img src="img/practices-pic3.jpg" alt=""></div>
+                                    <h3>Lifestyles</h3>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                    <!-- RIGHT COLUMN END -->    
                     </div>
 
                 </div>
