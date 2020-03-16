@@ -84,6 +84,7 @@
             <section id="second">
                 <div class="second-container container">
 
+                    <!-- LEFT COLUMN -->
                     <div class="main-left">
 
                         <!-- ARTICLES -->
@@ -137,6 +138,68 @@
                             </div>
                         </div>
 
+
+
+
+
+
+
+
+
+                        <!-- GREAT PRACTICES -->
+
+                        <div class="practices">
+                            <h2>Great <span>Practices</span></h2>
+
+                            <div class="top-practice">
+
+                                <div class="prac">
+
+                                    <div>
+                                        <img src="img/practices-pic1.jpg" alt="little girl gardening">
+
+                                        <div>
+                                            <p>Little Girl Planting Veggie In The <span>Garden</span></p>
+                                            <p>Mar.15.2020</p>
+                                        </div>
+                                    </div>
+
+                                    <h3>Gardening is one great practice to becoming healthy</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, aut?</p>
+                                    <div class="author"><span><img src="img/paula.jpg" alt="author"></span> <p>By Paula Dillyo Mar 15, 2020</p></div>
+
+                                </div>
+
+                                <div class="prac">
+
+                                    <div>
+                                        <img src="img/practices-pic2.jpg" alt="workers in greenhouse">
+
+                                        <div>
+                                            <p>Workers Watering Plant In <span>Greenhouse</span></p>
+                                            <p>Mar.15.2020</p>
+                                        </div>
+                                    </div>
+
+                                    <h3>Gardening is one great practice to becoming healthy</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, aut?</p>
+                                    <div class="author"><span><img src="img/paula.jpg" alt="author"></span> <p>By Paula Dillyo Mar 15, 2020</p></div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="bottom-practice"></div>
+
+                        </div>
+
+
+
+
+
+
+
+                    <!-- LEFT COLUMN END -->
                     </div>
 
 
@@ -152,15 +215,54 @@
                     <!-- RIGHT COLUMN -->
 
                     <div class="main-right">
+
+
+                        <!-- MUST READ -->
                         <div class="must-read">
 
                             <h2>Must <span>Read</span></h2>
 
                             <div>
-                                <div class="reads"></div>
-                                <div class="reads"></div>
-                                <div class="reads"></div>
-                                <div class="reads"></div>
+
+                                <div class="reads">
+                                    <div>
+                                        <img src="img/reads-pic1.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <h3>Two Tourist Waiting For Food</h3>
+                                        <p>By Paula Dillyo Mar 15, 2020</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="reads">
+                                    <div>
+                                        <img src="img/reads-pic2.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <h3>Worlds Most Massive Street HotDog</h3>
+                                        <p>By Paula Dillyo Mar 15, 2020</p>
+                                    </div>
+                                </div>
+
+                                <div class="reads">
+                                    <div>
+                                        <img src="img/reads-pic3.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <h3>New York Street Food Market</h3>
+                                        <p>By Paula Dillyo Mar 15, 2020</p>
+                                    </div>
+                                </div>
+
+                                <div class="reads">
+                                    <div>
+                                        <img src="img/reads-pic4.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <h3>Ancient Cooking Traditions</h3>
+                                        <p>By Paula Dillyo Mar 15, 2020</p>
+                                    </div>
+                                </div>
                             </div>
 
                         </div>

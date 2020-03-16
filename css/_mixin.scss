@@ -121,3 +121,40 @@ $mainColor: #6665DD;
         color: $mainColor;
     }
 }
+
+
+
+@mixin readDiv() {
+    div {
+
+        &:first-of-type {
+            position: relative;
+            width: 27%;
+            height: 100%;
+            background-color: hotpink;
+            cursor: pointer;
+            @include imgCurve();
+
+            img {
+                @include siteImg();
+            }
+        }
+
+        &:last-of-type {
+            width: 68%;
+            height: 100%;
+            background-color: saddlebrown;
+
+            h3 {
+                margin: 0;
+                cursor: pointer;
+                @include pHover(#232222, $mainColor);
+            }
+
+            p {
+                margin-top: 5px;
+            }
+        }
+
+    }
+}
