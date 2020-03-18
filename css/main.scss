@@ -294,7 +294,7 @@ main {
                 width: 100%;
                 height: auto;
                 overflow: hidden;
-                margin-top: 50px;
+                margin-top: $sectionSpace;
                 @include flexBox(column);
 
                 h2 {
@@ -337,7 +337,7 @@ main {
                 .bottom-practice {
                     width: 100%;
                     height: 482px;
-                    margin-top: 50px;
+                    margin-top: $sectionSpace;
                     @include flexBox(row);
                     flex-wrap: wrap;
                     justify-content: space-between;
@@ -395,7 +395,7 @@ main {
                     width: 100%;
                     height: 510px;
                     overflow: hidden;
-                    margin-top: 50px;
+                    margin-top: $sectionSpace;
     
                     h2 {
                         @include sectionTitle();
@@ -454,7 +454,7 @@ main {
                     height: 885px;
                     background-color: teal;
                     overflow: hidden;
-                    margin-top: 50px;
+                    margin-top: $sectionSpace;
 
                     h2 {
                         @include sectionTitle();
@@ -521,7 +521,155 @@ main {
 
 
 
+
+
+
+
+                /************************/
+                /*****SMALL CATEGORY*****/
+                /************************/
+
+
+                .small-category {
+                    width: 100%;
+                    height: 220px;
+                    background-color: salmon;
+                    overflow: hidden;
+                    margin-top: $sectionSpace;
+
+                    h2 {
+                        @include sectionTitle();
+                    }
+
+                    & > div {
+                        width: 100%;
+                        height: 70%;
+                        background-color: teal;
+                        @include flexBox(row);
+                        justify-content: space-between;
+
+                        .sCats {
+                            width: 30%;
+                            height: 100%;
+                            background-color: tomato;
+                            position: relative;
+                            @include imgCurve();
+                            @include beforeHover();
+                            @include imgTransition(40px, 0);
+                            @include flexBox(row);
+                            justify-content: center;
+
+                            span {
+                                font-size: 1.8em;
+                                text-align: center;
+                            }
+
+                            img {
+                                @include siteImg();
+                            }
+                        }
+                    }
+                }
+
+
+
+
+
+
+
+                /***********************/
+                /*****TRENDY DISHES*****/
+                /***********************/
+
+
+                .dishes {
+                    width: 100%;
+                    height: 885px;
+                    background-color: teal;
+                    overflow: hidden;
+                    margin-top: $sectionSpace;
+
+                    h2 {
+                        @include sectionTitle();
+                    }
+
+                    & > div {
+                        width: 100%;
+                        height: 90%;
+                        background-color: tomato;
+                        @include flexBox(column);
+                        justify-content: space-between;
+
+                        .dish {
+                            width: 100%;
+                            height: 30.5%;
+                            background-color: yellowgreen;
+                            @include flexBox(row);
+                            justify-content: space-between;
+
+                            & > div {
+                                width: 48%;
+                                background-color: rosybrown;
+
+                                &:first-of-type {
+                                    position: relative;
+                                    @include imgCurve;
+                                    cursor: pointer;
+
+                                    img {
+                                        @include siteImg();
+                                    }
+                                }
+
+                                &:last-of-type {
+
+                                    h3 {
+                                        @include pHover(#232222, $mainColor);
+                                        cursor: pointer;
+                                        margin-top: 0;
+                                    }
+
+                                    .author {
+                                        @include authorDiv();
+                                    }
+
+                                    & > p {
+                                        &:first-of-type {
+                                            color: #cccccc;
+                                        }
+
+                                        &:last-of-type {
+                                            @include pHover($mainColor, rgb(21, 22, 66));
+                                            font-size: 1em;
+                                            font-weight: 600;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+
+
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -586,7 +734,7 @@ main {
             .categories {
                 width: 100%;
                 height: 600px;
-                margin-top: 40px;
+                margin-top: $sectionSpace;
                 overflow: hidden;
 
                 h2 {
@@ -654,7 +802,7 @@ main {
                 width: 100%;
                 height: 560px;
                 position: relative;
-                margin-top: 50px;
+                margin-top: $sectionSpace;
                 @include imgCurve();
 
                 img {
@@ -696,7 +844,7 @@ main {
                 height: 720px;
                 background-color: rgb(11, 158, 138);
                 overflow: hidden;
-                margin-top: 50px;
+                margin-top: $sectionSpace;
 
                 h2 {
                     @include sectionTitle();
@@ -713,7 +861,196 @@ main {
                         width: 100%;
                         height: 47%;
                         background-color: sienna;
+
+                        & > div {
+                            width: 100%;
+                            height: 80%;
+                            position: relative;
+                            background-color: skyblue;
+                            @include imgCurve();
+                            @include flexBox(row);
+                            justify-content: center;
+                            align-items: center;
+                            
+                            &::before {
+                                content: "";
+                                position: absolute;
+                                width: 100%;
+                                height: 100%;
+                                background-color: rgba(0, 0, 0, 0.363);
+                            }
+
+                            img {
+                                @include siteImg();
+                            }
+
+                            .play {
+                                position: absolute;
+                                width: 78px;
+                                height: 78px;
+                                border-radius: 50%;
+                                border: 3px solid #ffffff;
+                                background-color: transparent;
+                                @include flexBox(row);
+                                align-items: center;
+                                cursor: pointer;
+
+                                span {
+                                    display: block;
+                                    margin-left: 25px;
+                                    width: 0;
+                                    height: 0;
+                                    border-left: 25px solid #ffffff;
+                                    border-top: 13px solid transparent;
+                                    border-bottom: 13px solid transparent;
+                                }
+                            }
+                        }
+
+                        h3 {
+                            font-size: 1em;
+                            @include pHover(#232222, $mainColor);
+                        }
                     }
+                }
+            }
+
+
+
+
+
+
+
+            /***********************/
+            /*****POPULAR POSTS*****/
+            /***********************/
+
+            .popular {
+                width: 100%;
+                height: 530px;
+                background-color: rgb(41, 43, 139);
+                overflow: hidden;
+                margin-top: $sectionSpace;
+
+                h2 {
+                    @include sectionTitle();
+                }
+
+                & > div {
+                    width: 100%;
+                    height: 83%;
+                    background-color: rgb(27, 133, 13);
+                    @include flexBox(column);
+                    justify-content: space-between;
+
+                    .pops {
+                        width: 100%;
+                        height: 10.5%;
+                        background-color: rgb(184, 0, 101);
+                        @include flexBox(row);
+
+                        h4 {
+                            font-size: 2em;
+                            font-style: italic;
+                            width: 58px;
+                            height: 45px;
+                            margin: 0;
+                            @include flexBox(row);
+                            justify-content: center;
+                            align-items: center;
+                        }
+
+                        h3 {
+                            font-size: 1em;
+                            width: 75%;
+                            margin: 0 0 0 10px;
+                            @include pHover(#232222, $mainColor);
+                        }
+                    }
+                }
+            }
+
+
+
+
+
+
+
+            /*************************/
+            /*****RECENT COMMENTS*****/
+            /*************************/
+
+            .comments {
+                width: 100%;
+                height: 520px;
+                overflow: hidden;
+                margin-top: $sectionSpace;
+
+                h2 {
+                    @include sectionTitle();
+                }
+
+                & > div {
+                    width: 100%;
+                    height: 82%;
+                    @include flexBox(column);
+                    justify-content: space-between;
+
+                    .comms {
+                        width: 100%;
+                        height: 22%;
+                        justify-content: space-between;
+                        @include flexBox(row);
+                        @include readDiv();
+
+                        h3 {
+                            @include pHover(#232222, $mainColor); 
+                        }
+
+                        div:first-of-type {
+                            border-radius: 50%;
+                        }
+                    }
+                }
+            }
+
+
+
+
+
+
+
+            /********************/
+            /*****TRAILHOUSE*****/
+            /********************/
+
+            .trailhouse {
+                width: 100%;
+                height: 325px;
+                position: relative;
+                margin-top: $sectionSpace;
+                @include imgCurve();
+
+                img {
+                    @include siteImg();
+                }
+
+                h3, p {
+                    position: absolute;
+                    text-align: center;
+                    width: 100%;
+                    font-weight: 800;
+                }
+
+                h3 {
+                    top: 20px;
+                    font-size: 1.5em;
+                }
+
+                p {
+                    bottom: 15px;
+                    font-size: 1.2em;
+                    color: $mainColor;
                 }
             }
 

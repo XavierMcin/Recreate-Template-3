@@ -434,6 +434,120 @@
 
                         </div>
 
+
+
+
+
+
+
+                        <!-- TOP CATEGORIES -->
+
+
+                        <div class="small-category">
+
+                            <h2>Top <span>Categories</span></h2>
+
+                            <div>
+
+                                <div class="sCats">
+                                    <img src="img/practices-pic4.jpg" alt="">
+
+                                    <div>
+                                        <p><span>Culture</span></p>
+                                    </div>
+
+                                </div>
+
+                                <div class="sCats">
+                                    <img src="img/reads-pic1.jpg" alt="">
+
+                                    <div>
+                                        <p><span>Street Food</span></p>
+                                    </div>
+
+                                </div>
+
+                                <div class="sCats">
+                                    <img src="img/practices-pic6.jpg" alt="">
+
+                                    <div>
+                                        <p><span>Resturants</span></p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+
+
+
+
+                        <!-- TRENDY DISHES -->
+
+                        <div class="dishes">
+
+                            <h2>Trendy <span>Dishes</span></h2>
+
+                            <div>
+
+                                <div class="dish">
+
+                                    <div>
+                                        <img src="img/reads-pic2.jpg" alt="">
+                                    </div>
+
+                                    <div>
+                                        <h3>There Are Countless Ways To Stay Healty</h3>
+                                        <div class="author"><span><img src="img/paula.jpg" alt="author"></span> <p>By Paula Dillyo Mar 15, 2020</p></div>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia molestiae repellat praesentium obcaecati asperiores provident?</p>
+                                        <p>Read More</p>
+                                    </div>
+
+                                </div>
+
+                                <div class="dish">
+
+                                    <div>
+                                        <img src="img/first-pic3.jpg" alt="">
+                                    </div>
+
+                                    <div>
+                                        <h3>There Are Countless Ways To Stay Healty</h3>
+                                        <div class="author"><span><img src="img/paula.jpg" alt="author"></span> <p>By Paula Dillyo Mar 15, 2020</p></div>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia molestiae repellat praesentium obcaecati asperiores provident?</p>
+                                        <p>Read More</p>
+                                    </div>
+
+                                </div>
+
+                                <div class="dish">
+
+                                    <div>
+                                        <img src="img/first-pic2.jpg" alt="">
+                                    </div>
+
+                                    <div>
+                                        <h3>There Are Countless Ways To Stay Healty</h3>
+                                        <div class="author"><span><img src="img/paula.jpg" alt="author"></span> <p>By Paula Dillyo Mar 15, 2020</p></div>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia molestiae repellat praesentium obcaecati asperiores provident?</p>
+                                        <p>Read More</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+
+
+
                     <!-- LEFT COLUMN END -->
                     </div>
 
@@ -575,12 +689,20 @@
                             <div>
 
                                 <div class="vids">
-                                    <div><img src="" alt=""></div>
+                                    <div>
+                                        <img src="img/video-pic1.png" alt="">
+
+                                        <div class="play"><span></span></div>
+                                    </div>
                                     <h3>A New Report Shows The Deep Frying Isn't All That Bad</h3>
                                 </div>
 
                                 <div class="vids">
-                                    <div><img src="" alt=""></div>
+                                    <div>
+                                        <img src="img/video-pic2.png" alt="">
+
+                                        <div class="play"><span></span></div>
+                                    </div>
                                     <h3>Having A Diverse Menu Is Very Cool To Have</h3>
                                 </div>
 
@@ -590,7 +712,121 @@
 
 
 
+                        <!-- POPULAR POST -->
 
+                        <div class="popular">
+
+                            <h2>Popular <span>Posts</span></h2>
+
+                            <div>
+
+                                <div class="pops">
+                                    <h4>01</h4>
+                                    <h3>There Are Countless Ways To Stay Healty While At Home</h3>
+                                </div>
+
+                                <div class="pops">
+                                    <h4>02</h4>
+                                    <h3>There Are Countless Ways To Stay Healty While At Home</h3>
+                                </div>
+
+                                <div class="pops">
+                                    <h4>03</h4>
+                                    <h3>There Are Countless Ways To Stay Healty While At Home</h3>
+                                </div>
+
+                                <div class="pops">
+                                    <h4>04</h4>
+                                    <h3>There Are Countless Ways To Stay Healty While At Home</h3>
+                                </div>
+
+                                <div class="pops">
+                                    <h4>05</h4>
+                                    <h3>There Are Countless Ways To Stay Healty While At Home</h3>
+                                </div>
+
+                                <div class="pops">
+                                    <h4>06</h4>
+                                    <h3>There Are Countless Ways To Stay Healty While At Home</h3>
+                                </div>
+
+                                <div class="pops">
+                                    <h4>07</h4>
+                                    <h3>There Are Countless Ways To Stay Healty While At Home</h3>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+
+
+
+                        <!-- RECENT COMMENTS -->
+
+
+                        <div class="comments">
+
+                            <h2>Recent <span>Comments</span></h2>
+
+                            <div>
+
+                                <div class="comms">
+                                    <div>
+                                        <img src="img/comm-pic3.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <h3>Anna Lebeer</h3>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="comms">
+                                    <div>
+                                        <img src="img/comm-pic2.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <h3>Tim Calhoon</h3>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+
+                                <div class="comms">
+                                    <div>
+                                        <img src="img/comm-pic1.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <h3>Johnathan Gerriano</h3>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+
+                                <div class="comms">
+                                    <div>
+                                        <img src="img/comm-pic4.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <h3>Cathy Tallson</h3>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+
+
+                        <!-- TRAILHOUSE BURGER -->
+
+                        <div class="trailhouse">
+                            <img src="img/trailhouse.jpg" alt="">
+                            <h3>New Trailhouse <br>Burger</h3>
+                            <p>Order <br>Now</p>
+                        </div>
 
 
 

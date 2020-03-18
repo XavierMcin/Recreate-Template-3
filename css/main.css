@@ -104,6 +104,7 @@ main {
   text-align: center;
   font-size: 2em;
   text-transform: uppercase;
+  margin-top: 0;
 }
 
 #first .first-container > h2 span {
@@ -463,6 +464,12 @@ main {
   /******************************/
   /*****HEALTH AND LIFESTYLE*****/
   /******************************/
+  /************************/
+  /*****SMALL CATEGORY*****/
+  /************************/
+  /***********************/
+  /*****TRENDY DISHES*****/
+  /***********************/
 }
 
 #second .second-container .main-left .articles {
@@ -474,6 +481,7 @@ main {
 #second .second-container .main-left .articles h2 {
   font-size: 2em;
   text-transform: uppercase;
+  margin-top: 0;
 }
 
 #second .second-container .main-left .articles h2 span {
@@ -644,6 +652,7 @@ main {
 #second .second-container .main-left .practices h2 {
   font-size: 2em;
   text-transform: uppercase;
+  margin-top: 0;
 }
 
 #second .second-container .main-left .practices h2 span {
@@ -867,6 +876,7 @@ main {
 #second .second-container .main-left .street-food h2 {
   font-size: 2em;
   text-transform: uppercase;
+  margin-top: 0;
 }
 
 #second .second-container .main-left .street-food h2 span {
@@ -1031,6 +1041,7 @@ main {
 #second .second-container .main-left .lifestyles h2 {
   font-size: 2em;
   text-transform: uppercase;
+  margin-top: 0;
 }
 
 #second .second-container .main-left .lifestyles h2 span {
@@ -1155,6 +1166,268 @@ main {
   color: #151642;
 }
 
+#second .second-container .main-left .small-category {
+  width: 100%;
+  height: 220px;
+  background-color: salmon;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+#second .second-container .main-left .small-category h2 {
+  font-size: 2em;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+#second .second-container .main-left .small-category h2 span {
+  color: #6665DD;
+}
+
+#second .second-container .main-left .small-category > div {
+  width: 100%;
+  height: 70%;
+  background-color: teal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#second .second-container .main-left .small-category > div .sCats {
+  width: 30%;
+  height: 100%;
+  background-color: tomato;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#second .second-container .main-left .small-category > div .sCats::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.363);
+  -webkit-transition: background-color .2s ease-in-out;
+  transition: background-color .2s ease-in-out;
+}
+
+#second .second-container .main-left .small-category > div .sCats:hover::before {
+  background-color: transparent;
+}
+
+#second .second-container .main-left .small-category > div .sCats div {
+  position: absolute;
+  width: 90%;
+  height: 25%;
+  bottom: 40px;
+  margin-left: 0;
+  -webkit-transition: bottom .3s ease-in-out;
+  transition: bottom .3s ease-in-out;
+}
+
+#second .second-container .main-left .small-category > div .sCats div p {
+  color: #ffffff;
+}
+
+#second .second-container .main-left .small-category > div .sCats div p:first-of-type {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+#second .second-container .main-left .small-category > div .sCats div p:first-of-type span {
+  display: block;
+  font-weight: 600;
+}
+
+#second .second-container .main-left .small-category > div .sCats div p:last-of-type {
+  font-size: .9em;
+  font-weight: 600;
+  margin-top: 5px;
+  opacity: 0;
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+  -webkit-transition: opacity .2s ease-in-out .1s, -webkit-transform .2s ease-in-out .1s;
+  transition: opacity .2s ease-in-out .1s, -webkit-transform .2s ease-in-out .1s;
+  transition: transform .2s ease-in-out .1s, opacity .2s ease-in-out .1s;
+  transition: transform .2s ease-in-out .1s, opacity .2s ease-in-out .1s, -webkit-transform .2s ease-in-out .1s;
+}
+
+#second .second-container .main-left .small-category > div .sCats:hover div {
+  bottom: 70px;
+}
+
+#second .second-container .main-left .small-category > div .sCats:hover div p:last-of-type {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  opacity: 1;
+}
+
+#second .second-container .main-left .small-category > div .sCats span {
+  font-size: 1.8em;
+  text-align: center;
+}
+
+#second .second-container .main-left .small-category > div .sCats img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#second .second-container .main-left .dishes {
+  width: 100%;
+  height: 885px;
+  background-color: teal;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+#second .second-container .main-left .dishes h2 {
+  font-size: 2em;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+#second .second-container .main-left .dishes h2 span {
+  color: #6665DD;
+}
+
+#second .second-container .main-left .dishes > div {
+  width: 100%;
+  height: 90%;
+  background-color: tomato;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#second .second-container .main-left .dishes > div .dish {
+  width: 100%;
+  height: 30.5%;
+  background-color: yellowgreen;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#second .second-container .main-left .dishes > div .dish > div {
+  width: 48%;
+  background-color: rosybrown;
+}
+
+#second .second-container .main-left .dishes > div .dish > div:first-of-type {
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#second .second-container .main-left .dishes > div .dish > div:first-of-type img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#second .second-container .main-left .dishes > div .dish > div:last-of-type h3 {
+  color: #232222;
+  -webkit-transition: color .1s ease-in-out;
+  transition: color .1s ease-in-out;
+  cursor: pointer;
+  cursor: pointer;
+  margin-top: 0;
+}
+
+#second .second-container .main-left .dishes > div .dish > div:last-of-type h3:hover {
+  color: #6665DD;
+}
+
+#second .second-container .main-left .dishes > div .dish > div:last-of-type .author {
+  width: 100%;
+  height: 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#second .second-container .main-left .dishes > div .dish > div:last-of-type .author span {
+  width: 42px;
+  height: 42px;
+  position: relative;
+  cursor: pointer;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+#second .second-container .main-left .dishes > div .dish > div:last-of-type .author span img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#second .second-container .main-left .dishes > div .dish > div:last-of-type .author p {
+  margin: 0;
+  font-size: .9em;
+  text-align: center;
+}
+
+#second .second-container .main-left .dishes > div .dish > div:last-of-type > p:first-of-type {
+  color: #cccccc;
+}
+
+#second .second-container .main-left .dishes > div .dish > div:last-of-type > p:last-of-type {
+  color: #6665DD;
+  -webkit-transition: color .1s ease-in-out;
+  transition: color .1s ease-in-out;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+#second .second-container .main-left .dishes > div .dish > div:last-of-type > p:last-of-type:hover {
+  color: #151642;
+}
+
 #second .second-container .main-right {
   width: 30%;
   height: 100%;
@@ -1171,6 +1444,15 @@ main {
   /***********************/
   /*****LATEST VIDEOS*****/
   /***********************/
+  /***********************/
+  /*****POPULAR POSTS*****/
+  /***********************/
+  /*************************/
+  /*****RECENT COMMENTS*****/
+  /*************************/
+  /********************/
+  /*****TRAILHOUSE*****/
+  /********************/
 }
 
 #second .second-container .main-right .must-read {
@@ -1182,6 +1464,7 @@ main {
 #second .second-container .main-right .must-read h2 {
   font-size: 2em;
   text-transform: uppercase;
+  margin-top: 0;
 }
 
 #second .second-container .main-right .must-read h2 span {
@@ -1261,13 +1544,14 @@ main {
 #second .second-container .main-right .categories {
   width: 100%;
   height: 600px;
-  margin-top: 40px;
+  margin-top: 50px;
   overflow: hidden;
 }
 
 #second .second-container .main-right .categories h2 {
   font-size: 2em;
   text-transform: uppercase;
+  margin-top: 0;
   margin-bottom: 20px;
 }
 
@@ -1388,6 +1672,7 @@ main {
 #second .second-container .main-right .videos h2 {
   font-size: 2em;
   text-transform: uppercase;
+  margin-top: 0;
 }
 
 #second .second-container .main-right .videos h2 span {
@@ -1414,5 +1699,302 @@ main {
   width: 100%;
   height: 47%;
   background-color: sienna;
+}
+
+#second .second-container .main-right .videos > div .vids > div {
+  width: 100%;
+  height: 80%;
+  position: relative;
+  background-color: skyblue;
+  border-radius: 5px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#second .second-container .main-right .videos > div .vids > div::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.363);
+}
+
+#second .second-container .main-right .videos > div .vids > div img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#second .second-container .main-right .videos > div .vids > div .play {
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+#second .second-container .main-right .videos > div .vids > div .play span {
+  display: block;
+  margin-left: 25px;
+  width: 0;
+  height: 0;
+  border-left: 25px solid #ffffff;
+  border-top: 13px solid transparent;
+  border-bottom: 13px solid transparent;
+}
+
+#second .second-container .main-right .videos > div .vids h3 {
+  font-size: 1em;
+  color: #232222;
+  -webkit-transition: color .1s ease-in-out;
+  transition: color .1s ease-in-out;
+  cursor: pointer;
+}
+
+#second .second-container .main-right .videos > div .vids h3:hover {
+  color: #6665DD;
+}
+
+#second .second-container .main-right .popular {
+  width: 100%;
+  height: 530px;
+  background-color: #292b8b;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+#second .second-container .main-right .popular h2 {
+  font-size: 2em;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+#second .second-container .main-right .popular h2 span {
+  color: #6665DD;
+}
+
+#second .second-container .main-right .popular > div {
+  width: 100%;
+  height: 83%;
+  background-color: #1b850d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#second .second-container .main-right .popular > div .pops {
+  width: 100%;
+  height: 10.5%;
+  background-color: #b80065;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#second .second-container .main-right .popular > div .pops h4 {
+  font-size: 2em;
+  font-style: italic;
+  width: 58px;
+  height: 45px;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#second .second-container .main-right .popular > div .pops h3 {
+  font-size: 1em;
+  width: 75%;
+  margin: 0 0 0 10px;
+  color: #232222;
+  -webkit-transition: color .1s ease-in-out;
+  transition: color .1s ease-in-out;
+  cursor: pointer;
+}
+
+#second .second-container .main-right .popular > div .pops h3:hover {
+  color: #6665DD;
+}
+
+#second .second-container .main-right .comments {
+  width: 100%;
+  height: 520px;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+#second .second-container .main-right .comments h2 {
+  font-size: 2em;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+#second .second-container .main-right .comments h2 span {
+  color: #6665DD;
+}
+
+#second .second-container .main-right .comments > div {
+  width: 100%;
+  height: 82%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#second .second-container .main-right .comments > div .comms {
+  width: 100%;
+  height: 22%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#second .second-container .main-right .comments > div .comms div:first-of-type {
+  position: relative;
+  width: 27%;
+  height: 100%;
+  background-color: hotpink;
+  cursor: pointer;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#second .second-container .main-right .comments > div .comms div:first-of-type img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#second .second-container .main-right .comments > div .comms div:last-of-type {
+  width: 68%;
+  height: 100%;
+  background-color: saddlebrown;
+}
+
+#second .second-container .main-right .comments > div .comms div:last-of-type h3 {
+  margin: 0;
+  cursor: pointer;
+  color: #232222;
+  -webkit-transition: color .1s ease-in-out;
+  transition: color .1s ease-in-out;
+  cursor: pointer;
+}
+
+#second .second-container .main-right .comments > div .comms div:last-of-type h3:hover {
+  color: #6665DD;
+}
+
+#second .second-container .main-right .comments > div .comms div:last-of-type p {
+  margin-top: 5px;
+}
+
+#second .second-container .main-right .comments > div .comms h3 {
+  color: #232222;
+  -webkit-transition: color .1s ease-in-out;
+  transition: color .1s ease-in-out;
+  cursor: pointer;
+}
+
+#second .second-container .main-right .comments > div .comms h3:hover {
+  color: #6665DD;
+}
+
+#second .second-container .main-right .comments > div .comms div:first-of-type {
+  border-radius: 50%;
+}
+
+#second .second-container .main-right .trailhouse {
+  width: 100%;
+  height: 325px;
+  position: relative;
+  margin-top: 50px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#second .second-container .main-right .trailhouse img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#second .second-container .main-right .trailhouse h3, #second .second-container .main-right .trailhouse p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  font-weight: 800;
+}
+
+#second .second-container .main-right .trailhouse h3 {
+  top: 20px;
+  font-size: 1.5em;
+}
+
+#second .second-container .main-right .trailhouse p {
+  bottom: 15px;
+  font-size: 1.2em;
+  color: #6665DD;
 }
 /*# sourceMappingURL=main.css.map */
