@@ -2562,7 +2562,7 @@ main {
 footer {
   width: 100%;
   height: 470px;
-  background-color: goldenrod;
+  background-color: #020004;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2570,23 +2570,231 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 footer .footer-container {
   width: 100%;
+  max-width: 1140px;
   height: 90%;
-  background-color: honeydew;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footer-container .foots {
+  height: 330px;
+  margin-right: 40px;
+}
+
+footer .footer-container .foots:first-of-type {
+  width: 33.5%;
+}
+
+footer .footer-container .foots:first-of-type h3 {
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 0;
+}
+
+footer .footer-container .foots:first-of-type p {
+  color: #aaaaab;
+  font-size: .9em;
+  margin: 35px 0 40px 0;
+  line-height: 25px;
+}
+
+footer .footer-container .foots:first-of-type .social {
+  width: 100%;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+footer .footer-container .foots:first-of-type .social div {
+  width: 40px;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #0e0e0e;
+  margin-right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footer-container .foots:first-of-type .social div span {
+  font-size: 1.2em;
+  color: #ffffff;
+  -webkit-transition: color .2s ease-in-out;
+  transition: color .2s ease-in-out;
+}
+
+footer .footer-container .foots:first-of-type .social div:hover span {
+  color: #1f099c;
+}
+
+footer .footer-container .foots:nth-of-type(2) {
+  width: 33.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .footer-container .foots:nth-of-type(2) h3 {
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 0;
+}
+
+footer .footer-container .foots:nth-of-type(2) .ePics {
+  width: 100%;
+  height: 22%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+footer .footer-container .foots:nth-of-type(2) .ePics div:first-of-type {
+  position: relative;
+  width: 27%;
+  height: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+footer .footer-container .foots:nth-of-type(2) .ePics div:first-of-type img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+footer .footer-container .foots:nth-of-type(2) .ePics div:last-of-type {
+  width: 68%;
+  height: 100%;
+}
+
+footer .footer-container .foots:nth-of-type(2) .ePics div:last-of-type h3 {
+  margin: 0;
+  cursor: pointer;
+  color: #232222;
+  -webkit-transition: color .1s ease-in-out;
+  transition: color .1s ease-in-out;
+  cursor: pointer;
+}
+
+footer .footer-container .foots:nth-of-type(2) .ePics div:last-of-type h3:hover {
+  color: #6665DD;
+}
+
+footer .footer-container .foots:nth-of-type(2) .ePics div:last-of-type p {
+  margin-top: 5px;
+}
+
+footer .footer-container .foots:nth-of-type(2) .ePics div:first-of-type {
+  width: 17%;
+}
+
+footer .footer-container .foots:nth-of-type(2) .ePics div:last-of-type {
+  width: 76%;
+}
+
+footer .footer-container .foots:nth-of-type(2) .ePics div:last-of-type h3 {
+  font-size: .9em;
+  color: #aaaaab;
+  text-transform: initial;
+}
+
+footer .footer-container .foots:nth-of-type(2) .ePics div:last-of-type p {
+  font-size: .9em;
+  color: rgba(255, 255, 255, 0.445);
+}
+
+footer .footer-container .foots:last-of-type {
+  width: 20%;
+}
+
+footer .footer-container .foots:last-of-type h3 {
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 0;
+}
+
+footer .footer-container .foots:last-of-type .links ul {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer .footer-container .foots:last-of-type .links ul li {
+  width: 50%;
+  list-style: none;
+  margin-bottom: 18px;
+}
+
+footer .footer-container .foots:last-of-type .links ul li a {
+  text-decoration: none;
+  color: #aaaaab;
 }
 
 footer .bFooter {
   width: 100%;
   height: 10%;
-  background-color: orangered;
+  background-color: #0e0e0e;
 }
 
 footer .bFooter p {
   font-size: .9em;
   text-align: center;
+  color: #ffffff;
 }
 
 footer .bFooter p span {
