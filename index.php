@@ -548,6 +548,164 @@
 
 
 
+                        <!-- GREAT CULTURES -->
+
+                        <div class="cultures">
+
+                            <h2>Cool <span>Cultures</span></h2>
+
+                            <div>
+
+                                <div class="cult">
+
+                                    <div>
+                                        <img src="img/practices-pic4.jpg" alt="">
+                                    </div>
+
+                                    <h3>Gardening is one great practice to becoming healthy</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, aut?</p>
+                                    <div class="author"><span><img src="img/paula.jpg" alt="author"></span> <p>By Paula Dillyo Mar 15, 2020</p></div>
+
+                                </div>
+
+                                <div class="cult">
+
+                                    <div>
+                                        <img src="img/reads-pic1.jpg" alt="">
+                                    </div>
+
+                                    <h3>Gardening is one great practice to becoming healthy</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, aut?</p>
+                                    <div class="author"><span><img src="img/paula.jpg" alt="author"></span> <p>By Paula Dillyo Mar 15, 2020</p></div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+
+
+
+
+                        <!-- STAY CONNECTED -->
+
+                        <div class="connected">
+                            <h2>Stay <span>Connected</span></h2>
+
+                            <div>
+
+                                <div class="connect">
+
+                                    <div><span></span></div>
+
+                                    <div>
+                                        <p>80,000</p>
+                                        <p>Followers</p>
+                                    </div>
+
+                                </div>
+
+                                <div class="connect">
+
+                                    <div><span></span></div>
+
+                                    <div>
+                                        <p>80,000</p>
+                                        <p>Followers</p>
+                                    </div>
+
+                                </div>
+
+                                <div class="connect">
+
+                                    <div><span></span></div>
+
+                                    <div>
+                                        <p>80,000</p>
+                                        <p>Followers</p>
+                                    </div>
+
+                                </div>
+
+                                <div class="connect">
+
+                                    <div><span></span></div>
+
+                                    <div>
+                                        <p>80,000</p>
+                                        <p>Followers</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+
+
+
+
+                        <!-- HEART CLOGGERS -->
+
+                        <div class="cloggers">
+
+                            <h2>Heart <span>Cloogers</span></h2>
+
+                            <div>
+
+                                <div class="clog">
+
+                                    <div>
+                                        <img src="img/clogger-pic1.jpg" alt="">
+                                    </div>
+
+                                    <h3>Gardening is one great practice to becoming healthy</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, aut?</p>
+                                    <div class="author"><span><img src="img/paula.jpg" alt="author"></span> <p>By Paula Dillyo Mar 15, 2020</p></div>
+
+                                </div>
+
+                                <div class="clog">
+
+                                    <div>
+                                        <img src="img/clogger-pic2.jpg" alt="">
+                                    </div>
+
+                                    <h3>Gardening is one great practice to becoming healthy</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, aut?</p>
+                                    <div class="author"><span><img src="img/paula.jpg" alt="author"></span> <p>By Paula Dillyo Mar 15, 2020</p></div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+
+
+
+
+                        <!-- INSTAGRAM -->
+
+                        <div class="instagram">
+                            <h2>We're On <span>Instagram</span></h2>
+
+                            <div></div>
+                        </div>
+
+
+
+
+
+
                     <!-- LEFT COLUMN END -->
                     </div>
 
@@ -826,6 +984,75 @@
                             <img src="img/trailhouse.jpg" alt="">
                             <h3>New Trailhouse <br>Burger</h3>
                             <p>Order <br>Now</p>
+                        </div>
+
+
+
+
+
+                        <!-- DON'T MISS -->
+
+                        <div class="dont-miss">
+                            <h2>Don't <span>Miss</span></h2>
+
+                            <div>
+                            
+                                <div class="miss">
+
+                                    <div>
+                                        <img src="img/practices-pic2.jpg" alt="workers in greenhouse">
+                                    </div>
+
+                                    <h3>Gardening is one great practice to becoming healthy</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, aut?</p>
+                                    <div class="author"><span><img src="img/paula.jpg" alt="author"></span> <p>By Paula Dillyo Mar 15, 2020</p></div>
+
+                                </div>
+
+                                <div class="miss">
+
+                                    <div>
+                                        <img src="img/practices-pic2.jpg" alt="workers in greenhouse">
+                                    </div>
+
+                                    <h3>Gardening is one great practice to becoming healthy</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, aut?</p>
+                                    <div class="author"><span><img src="img/paula.jpg" alt="author"></span> <p>By Paula Dillyo Mar 15, 2020</p></div>
+
+                                </div>
+
+                                <div class="miss">
+
+                                    <div>
+                                        <img src="img/practices-pic2.jpg" alt="workers in greenhouse">
+
+                                        <div>
+                                            <p>Workers Watering Plant In <span>Greenhouse</span></p>
+                                            <p>Mar.15.2020</p>
+                                        </div>
+                                    </div>
+
+                                    <h3>Gardening is one great practice to becoming healthy</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, aut?</p>
+                                    <div class="author"><span><img src="img/paula.jpg" alt="author"></span> <p>By Paula Dillyo Mar 15, 2020</p></div>
+
+                                </div>
+                            
+                            </div>
+
+                        </div>
+
+
+
+
+
+
+                        <!-- RESERVATION 2 -->
+
+                        <div class="reservation">
+                            <img src="img/reservation.jpg" alt="">
+                            <h3>Konoha Leaf</h3>
+                            <p>Make <br>Reservations</p>
                         </div>
 
 

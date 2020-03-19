@@ -59,6 +59,7 @@ header {
 
 main {
     overflow: hidden;
+    margin-top: 200px;
 }
 
 
@@ -200,14 +201,12 @@ main {
 #second {
     width: 100%;
     min-height: 1200px;
-    background-color: rgb(70, 71, 143);
     @include flexBox(row);
     justify-content: center;
 
     .second-container {
         width: 100%;
         max-width: 1140px;
-        background-color: rgb(86, 247, 247);
         @include flexBox(row);
         justify-content: space-between;
 
@@ -452,7 +451,6 @@ main {
                 .lifestyles {
                     width: 100%;
                     height: 885px;
-                    background-color: teal;
                     overflow: hidden;
                     margin-top: $sectionSpace;
 
@@ -463,20 +461,17 @@ main {
                     & > div {
                         width: 100%;
                         height: 90%;
-                        background-color: tomato;
                         @include flexBox(column);
                         justify-content: space-between;
 
                         .life {
                             width: 100%;
                             height: 30.5%;
-                            background-color: yellowgreen;
                             @include flexBox(row);
                             justify-content: space-between;
 
                             & > div {
                                 width: 48%;
-                                background-color: rosybrown;
 
                                 &:first-of-type {
                                     position: relative;
@@ -533,7 +528,6 @@ main {
                 .small-category {
                     width: 100%;
                     height: 220px;
-                    background-color: salmon;
                     overflow: hidden;
                     margin-top: $sectionSpace;
 
@@ -544,18 +538,16 @@ main {
                     & > div {
                         width: 100%;
                         height: 70%;
-                        background-color: teal;
                         @include flexBox(row);
                         justify-content: space-between;
 
                         .sCats {
                             width: 30%;
                             height: 100%;
-                            background-color: tomato;
                             position: relative;
                             @include imgCurve();
                             @include beforeHover();
-                            @include imgTransition(40px, 0);
+                            @include imgTransition(30px, 0);
                             @include flexBox(row);
                             justify-content: center;
 
@@ -585,7 +577,6 @@ main {
                 .dishes {
                     width: 100%;
                     height: 885px;
-                    background-color: teal;
                     overflow: hidden;
                     margin-top: $sectionSpace;
 
@@ -596,20 +587,17 @@ main {
                     & > div {
                         width: 100%;
                         height: 90%;
-                        background-color: tomato;
                         @include flexBox(column);
                         justify-content: space-between;
 
                         .dish {
                             width: 100%;
                             height: 30.5%;
-                            background-color: yellowgreen;
                             @include flexBox(row);
                             justify-content: space-between;
 
                             & > div {
                                 width: 48%;
-                                background-color: rosybrown;
 
                                 &:first-of-type {
                                     position: relative;
@@ -652,6 +640,202 @@ main {
 
 
 
+
+
+
+
+                /************************/
+                /*****GREAT CULTURES*****/
+                /************************/
+
+                .cultures {
+                    width: 100%;
+                    height: auto;
+                    overflow: hidden;
+                    margin-top: $sectionSpace;
+                    @include flexBox(column);
+
+                    h2 {
+                        @include sectionTitle();
+                    }
+    
+                    & > div {
+                        width: 100%;
+                        height: 425px;
+                        @include flexBox(row);
+                        justify-content: space-between;
+    
+                        .cult {
+                            width: 48%;
+                            height: 100%;
+    
+                            & > div {
+                                width: 100%;
+                                height: 57%;
+    
+                                &:first-of-type {
+                                    position: relative;
+                                    @include imgCurve();
+    
+                                    img {
+                                        @include siteImg();
+                                    }
+                                }
+                            }
+    
+                            
+                            .author {
+                                @include authorDiv();
+                            }
+                        }
+                    }
+                }
+
+
+
+
+
+
+
+                /************************/
+                /*****STAY CONNECTED*****/
+                /************************/
+
+
+                .connected {
+                    width: 100%;
+                    height: 115px;
+                    overflow: hidden;
+                    margin-top: $sectionSpace;
+
+                    h2 {
+                        @include sectionTitle();
+                    }
+
+                    & > div {
+                        width: 100%;
+                        height: 42%;
+                        @include flexBox(row);
+                        justify-content: space-between;
+
+                        .connect {
+                            width: 21.5%;
+                            height: 100%;
+                            border: 1px solid #cccccc;
+                            @include flexBox(row);
+                            @include imgCurve();
+
+                            div {
+                                &:first-of-type {
+                                    width: 30%;
+                                    height: 100%;
+                                    border-right: 1px solid #cccccc;
+                                }
+
+                                &:last-of-type {
+                                    width: 70%;
+                                    height: 100%;
+
+                                    p {
+                                        margin: 0;
+                                        text-align: center;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+
+
+
+
+
+
+                /************************/
+                /*****HEART CLOGGERS*****/
+                /************************/
+
+                .cloggers {
+                    width: 100%;
+                    height: auto;
+                    overflow: hidden;
+                    margin-top: $sectionSpace;
+                    @include flexBox(column);
+
+                    h2 {
+                        @include sectionTitle();
+                    }
+    
+                    & > div {
+                        width: 100%;
+                        height: 425px;
+                        @include flexBox(row);
+                        justify-content: space-between;
+    
+                        .clog {
+                            width: 48%;
+                            height: 100%;
+    
+                            & > div {
+                                width: 100%;
+                                height: 57%;
+    
+                                &:first-of-type {
+                                    position: relative;
+                                    @include imgCurve();
+    
+                                    img {
+                                        @include siteImg();
+                                    }
+                                }
+                            }
+    
+                            
+                            .author {
+                                @include authorDiv();
+                            }
+                        }
+                    }
+                }
+
+
+
+
+
+
+
+                /*******************/
+                /*****INSTAGRAM*****/
+                /*******************/
+
+                .instagram {
+                    width: 100%;
+                    height: 285px;
+                    overflow: hidden;
+                    margin-top: $sectionSpace;
+
+                    h2 {
+                        @include sectionTitle();
+                    }
+
+                    & > div {
+                        width: 100%;
+                        height: 77%;
+                        background-color: rgb(27, 133, 13);
+                    }
+                }
+
+
+
+
+
+
+
+
+
+
+        /*****LEFT COLUMN END*****/
         }
 
 
@@ -686,7 +870,6 @@ main {
         .main-right {
             width: 30%;
             height: 100%;
-            background-color: rgb(184, 0, 101);
 
 
 
@@ -842,7 +1025,6 @@ main {
             .videos {
                 width: 100%;
                 height: 720px;
-                background-color: rgb(11, 158, 138);
                 overflow: hidden;
                 margin-top: $sectionSpace;
 
@@ -853,20 +1035,17 @@ main {
                 & > div {
                     width: 100%;
                     height: 88%;
-                    background-color: seagreen;
                     @include flexBox(column);
                     justify-content: space-between;
 
                     .vids {
                         width: 100%;
                         height: 47%;
-                        background-color: sienna;
 
                         & > div {
                             width: 100%;
                             height: 80%;
                             position: relative;
-                            background-color: skyblue;
                             @include imgCurve();
                             @include flexBox(row);
                             justify-content: center;
@@ -928,7 +1107,6 @@ main {
             .popular {
                 width: 100%;
                 height: 530px;
-                background-color: rgb(41, 43, 139);
                 overflow: hidden;
                 margin-top: $sectionSpace;
 
@@ -939,14 +1117,12 @@ main {
                 & > div {
                     width: 100%;
                     height: 83%;
-                    background-color: rgb(27, 133, 13);
                     @include flexBox(column);
                     justify-content: space-between;
 
                     .pops {
                         width: 100%;
                         height: 10.5%;
-                        background-color: rgb(184, 0, 101);
                         @include flexBox(row);
 
                         h4 {
@@ -1057,6 +1233,72 @@ main {
 
 
 
+
+
+
+            /********************/
+            /*****DON'T MISS*****/
+            /********************/
+
+
+            .dont-miss {
+                width: 100%;
+                height: 1350px;
+                overflow: hidden;
+                margin-top: $sectionSpace;
+                @include flexBox(column);
+
+                h2 {
+                    @include sectionTitle();
+                }
+
+                & > div {
+                    width: 100%;
+                    height: 95%;
+                    @include flexBox(column);
+                    justify-content: space-between;
+
+                    .miss {
+                        width: 100%;
+                        height: 32%;
+
+                        & > div {
+                            width: 100%;
+                            height: 57%;
+
+                            &:first-of-type {
+                                position: relative;
+                                @include imgCurve();
+
+                                img {
+                                    @include siteImg();
+                                }
+                            }
+                        }
+
+                        h3 {
+                            margin: 12px 0 12px 0;
+                            @include pHover(#232222, $mainColor); 
+                        }
+
+                        & > p {
+                            font-size: .9em;
+                            margin-top: 0;
+                        }
+
+                        
+                        .author {
+                            @include authorDiv();
+                        }
+                    }
+                }
+            }
+
+
+
+
+
+        /*****RIGHT COLUMN END*****/
         }
     }
 }
