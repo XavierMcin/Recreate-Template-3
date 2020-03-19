@@ -1065,6 +1065,28 @@
                 </div>
             </section>
 
+
+
+
+
+
+
+            <section id="third">
+                <div class="third-container container">
+
+                    <div class="subscribe">
+                        <p>We Like To Share Latest News Of WebFoodies</p>
+                        <h3>Subscribe Now !</h3>
+
+                        <form action="#" method="post" class="food-form">
+                            <input type="text" name="fEmail" id="email" placeholder="Enter your email address">
+                            <input type="submit" value="Subscribe">
+                        </form>
+                    </div>
+
+                </div>
+            </section>
+
         </main>
 
 
@@ -1084,7 +1106,7 @@
         <!-- ###### -->
         <!-- FOOTER -->
         <!-- ###### -->
-        <footer></footer>
+        <?php include "includes/footer.php"; ?>
 
 
         <!-- SCRIPTS -->

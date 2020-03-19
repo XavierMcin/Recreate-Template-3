@@ -213,10 +213,19 @@ main {
 
 #first .first-container .first-content > div:nth-of-type(2) h3 {
   font-size: 1.3em;
+  color: #232222;
+  -webkit-transition: color .1s ease-in-out;
+  transition: color .1s ease-in-out;
+  cursor: pointer;
+}
+
+#first .first-container .first-content > div:nth-of-type(2) h3:hover {
+  color: #6665DD;
 }
 
 #first .first-container .first-content > div:nth-of-type(2) > p:first-of-type {
   font-size: .9em;
+  color: #777777;
 }
 
 #first .first-container .first-content > div:nth-of-type(2) > p:last-of-type {
@@ -314,10 +323,19 @@ main {
 
 #first .first-container .first-content > div:last-of-type h3 {
   font-size: 1.3em;
+  color: #232222;
+  -webkit-transition: color .1s ease-in-out;
+  transition: color .1s ease-in-out;
+  cursor: pointer;
+}
+
+#first .first-container .first-content > div:last-of-type h3:hover {
+  color: #6665DD;
 }
 
 #first .first-container .first-content > div:last-of-type > p:first-of-type {
   font-size: .9em;
+  color: #777777;
 }
 
 #first .first-container .first-content > div:last-of-type > p:last-of-type {
@@ -642,7 +660,7 @@ main {
 }
 
 #second .second-container .main-left .articles > div .arts .author p {
-  margin: 0;
+  margin: 0 0 0 10px;
   font-size: .9em;
   text-align: center;
 }
@@ -770,6 +788,21 @@ main {
      object-fit: cover;
 }
 
+#second .second-container .main-left .practices .top-practice .prac h3 {
+  color: #232222;
+  -webkit-transition: color .1s ease-in-out;
+  transition: color .1s ease-in-out;
+  cursor: pointer;
+}
+
+#second .second-container .main-left .practices .top-practice .prac h3:hover {
+  color: #6665DD;
+}
+
+#second .second-container .main-left .practices .top-practice .prac > p {
+  color: #777777;
+}
+
 #second .second-container .main-left .practices .top-practice .prac .author {
   width: 100%;
   height: 42px;
@@ -802,7 +835,7 @@ main {
 }
 
 #second .second-container .main-left .practices .top-practice .prac .author p {
-  margin: 0;
+  margin: 0 0 0 10px;
   font-size: .9em;
   text-align: center;
 }
@@ -876,6 +909,7 @@ main {
 
 #second .second-container .main-left .practices .bottom-practice .bPrac > div:last-of-type p {
   margin-top: 5px;
+  color: #777777;
 }
 
 #second .second-container .main-left .street-food {
@@ -998,7 +1032,6 @@ main {
   -webkit-transition: color .1s ease-in-out;
   transition: color .1s ease-in-out;
   cursor: pointer;
-  cursor: pointer;
 }
 
 #second .second-container .main-left .street-food > div .street h3:hover {
@@ -1037,7 +1070,7 @@ main {
 }
 
 #second .second-container .main-left .street-food > div .street .author p {
-  margin: 0;
+  margin: 0 0 0 10px;
   font-size: .9em;
   text-align: center;
 }
@@ -1152,13 +1185,13 @@ main {
 }
 
 #second .second-container .main-left .lifestyles > div .life > div:last-of-type .author p {
-  margin: 0;
+  margin: 0 0 0 10px;
   font-size: .9em;
   text-align: center;
 }
 
 #second .second-container .main-left .lifestyles > div .life > div:last-of-type > p:first-of-type {
-  color: #cccccc;
+  color: #777777;
 }
 
 #second .second-container .main-left .lifestyles > div .life > div:last-of-type > p:last-of-type {
@@ -1407,13 +1440,13 @@ main {
 }
 
 #second .second-container .main-left .dishes > div .dish > div:last-of-type .author p {
-  margin: 0;
+  margin: 0 0 0 10px;
   font-size: .9em;
   text-align: center;
 }
 
 #second .second-container .main-left .dishes > div .dish > div:last-of-type > p:first-of-type {
-  color: #cccccc;
+  color: #777777;
 }
 
 #second .second-container .main-left .dishes > div .dish > div:last-of-type > p:last-of-type {
@@ -1491,6 +1524,21 @@ main {
      object-fit: cover;
 }
 
+#second .second-container .main-left .cultures > div .cult h3 {
+  color: #232222;
+  -webkit-transition: color .1s ease-in-out;
+  transition: color .1s ease-in-out;
+  cursor: pointer;
+}
+
+#second .second-container .main-left .cultures > div .cult h3:hover {
+  color: #6665DD;
+}
+
+#second .second-container .main-left .cultures > div .cult > p {
+  color: #777777;
+}
+
 #second .second-container .main-left .cultures > div .cult .author {
   width: 100%;
   height: 42px;
@@ -1523,7 +1571,7 @@ main {
 }
 
 #second .second-container .main-left .cultures > div .cult .author p {
-  margin: 0;
+  margin: 0 0 0 10px;
   font-size: .9em;
   text-align: center;
 }
@@ -1653,6 +1701,21 @@ main {
      object-fit: cover;
 }
 
+#second .second-container .main-left .cloggers > div .clog h3 {
+  color: #232222;
+  -webkit-transition: color .1s ease-in-out;
+  transition: color .1s ease-in-out;
+  cursor: pointer;
+}
+
+#second .second-container .main-left .cloggers > div .clog h3:hover {
+  color: #6665DD;
+}
+
+#second .second-container .main-left .cloggers > div .clog > p {
+  color: #777777;
+}
+
 #second .second-container .main-left .cloggers > div .clog .author {
   width: 100%;
   height: 42px;
@@ -1685,7 +1748,7 @@ main {
 }
 
 #second .second-container .main-left .cloggers > div .clog .author p {
-  margin: 0;
+  margin: 0 0 0 10px;
   font-size: .9em;
   text-align: center;
 }
@@ -2386,8 +2449,148 @@ main {
 }
 
 #second .second-container .main-right .dont-miss > div .miss .author p {
-  margin: 0;
+  margin: 0 0 0 10px;
   font-size: .9em;
   text-align: center;
+}
+
+#third {
+  width: 100%;
+  height: 590px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+}
+
+#third .third-container {
+  width: 100%;
+  max-width: 1140px;
+  height: 100%;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+#third .third-container .subscribe {
+  width: 100%;
+  height: 435px;
+  background-color: rgba(35, 50, 102, 0.137);
+  border-radius: 5px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#third .third-container .subscribe p, #third .third-container .subscribe h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#third .third-container .subscribe p {
+  font-size: .9em;
+}
+
+#third .third-container .subscribe h3 {
+  font-size: 2em;
+  color: #6665DD;
+  margin: 0 0 50px 0;
+}
+
+#third .third-container .subscribe .food-form {
+  width: 40%;
+  height: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#third .third-container .subscribe .food-form #email {
+  width: 100%;
+  height: 60px;
+  border: 2px solid #6665DD;
+  border-radius: 5px;
+  overflow: hidden;
+  padding-left: 15px;
+  color: #555;
+}
+
+#third .third-container .subscribe .food-form [type="submit"] {
+  width: 50%;
+  height: 46px;
+  background-color: #6665DD;
+  color: #ffffff;
+  border: none;
+  font-weight: 600;
+  -webkit-transition: background-color .2s ease-in-out;
+  transition: background-color .2s ease-in-out;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#third .third-container .subscribe .food-form [type="submit"]:hover {
+  background-color: #1f099c;
+}
+
+footer {
+  width: 100%;
+  height: 470px;
+  background-color: goldenrod;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .footer-container {
+  width: 100%;
+  height: 90%;
+  background-color: honeydew;
+}
+
+footer .bFooter {
+  width: 100%;
+  height: 10%;
+  background-color: orangered;
+}
+
+footer .bFooter p {
+  font-size: .9em;
+  text-align: center;
+}
+
+footer .bFooter p span {
+  color: #6665DD;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
