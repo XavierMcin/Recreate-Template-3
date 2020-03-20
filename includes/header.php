@@ -6,11 +6,12 @@
 
         <div class="top-navigation">
             
-            <div></div>
-
-            <div></div>
-
-            <div></div>
+            <div>
+                <div class="account fas fa-user"></div>
+                <div class="menu fas fa-bars"></div>
+                <input type="text" id="search-text">
+                <div class="search fas fa-search"></div>
+            </div>
 
         </div>
 

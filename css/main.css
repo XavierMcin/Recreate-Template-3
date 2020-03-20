@@ -6,6 +6,7 @@
 html, body {
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 
 html {
@@ -63,6 +64,287 @@ header .header-container .top-navigation {
   width: 250px;
   height: 100%;
   background-color: #1d6830;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .header-container .top-navigation > div {
+  width: 100%;
+  height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+header .header-container .top-navigation > div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  -webkit-transition: color .2s ease-in-out;
+  transition: color .2s ease-in-out;
+  font-size: 1.1em;
+}
+
+header .header-container .top-navigation > div div:hover {
+  color: #777;
+}
+
+header .header-container .top-navigation > div .account {
+  width: 25px;
+  height: 100%;
+  margin-right: 25px;
+}
+
+header .header-container .top-navigation > div .menu {
+  width: 25px;
+  height: 100%;
+  margin-right: 25px;
+}
+
+header .header-container .top-navigation > div input {
+  width: 0;
+  height: 100%;
+  border: none;
+  -webkit-transition: width .5s ease-in-out;
+  transition: width .5s ease-in-out;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+header .header-container .top-navigation > div input.tap {
+  width: 75%;
+  padding-left: 10px;
+  margin-right: 10px;
+}
+
+header .header-container .top-navigation > div .search {
+  width: 25px;
+  height: 100%;
+}
+
+aside {
+  width: 25%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  -webkit-transition: -webkit-transform .3s ease-in-out;
+  transition: -webkit-transform .3s ease-in-out;
+  transition: transform .3s ease-in-out;
+  transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+}
+
+aside.clicked {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+aside nav {
+  width: 85%;
+  height: 80%;
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+aside nav h3 {
+  margin: 0 0 12px 0;
+  text-transform: uppercase;
+}
+
+aside nav ul {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+aside nav ul li {
+  list-style: none;
+}
+
+aside nav .close-button {
+  width: 100%;
+  height: 25px;
+  position: relative;
+}
+
+aside nav .close-button span {
+  display: block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.1em;
+}
+
+aside nav .about-nav {
+  width: 100%;
+  height: 105px;
+  margin-top: 25px;
+}
+
+aside nav .about-nav p {
+  font-size: .9em;
+  color: #777;
+}
+
+aside nav .authors-nav {
+  width: 100%;
+  height: 150px;
+  margin-top: 25px;
+}
+
+aside nav .authors-nav li {
+  margin-bottom: 10px;
+  color: #777;
+}
+
+aside nav .categories-nav {
+  width: 100%;
+  height: 150px;
+  margin-top: 25px;
+}
+
+aside nav .categories-nav li {
+  margin-bottom: 10px;
+  color: #777;
+}
+
+aside nav .social-nav {
+  width: 100%;
+  height: 80px;
+  margin-top: 25px;
+}
+
+aside nav .social-nav ul {
+  width: 100%;
+  height: 28px;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+aside nav .social-nav ul li {
+  list-style: none;
+  width: 28px;
+  height: 28px;
+  margin-right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px solid #514f50;
+  border-radius: 50%;
+  -webkit-transition: border-color .2s ease-in-out;
+  transition: border-color .2s ease-in-out;
+}
+
+aside nav .social-nav ul li span {
+  display: block;
+  color: #514f50;
+  -webkit-transition: color .2s ease-in-out;
+  transition: color .2s ease-in-out;
+}
+
+aside nav .social-nav ul li:hover {
+  border-color: #6665DD;
+}
+
+aside nav .social-nav ul li:hover span {
+  color: #6665DD;
+}
+
+#overlay {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.363);
+  z-index: 3;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  opacity: 0;
+  -webkit-transition: opacity .2s ease-in-out;
+  transition: opacity .2s ease-in-out;
+}
+
+#overlay.clicked {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  opacity: 1;
 }
 
 main {
@@ -1623,20 +1905,67 @@ main {
   overflow: hidden;
 }
 
+#second .second-container .main-left .connected > div .connect:nth-of-type(1):hover div:first-of-type span {
+  color: #4267B2;
+}
+
+#second .second-container .main-left .connected > div .connect:nth-of-type(2):hover div:first-of-type span {
+  color: #71C9F8;
+}
+
+#second .second-container .main-left .connected > div .connect:nth-of-type(3):hover div:first-of-type span {
+  color: #DC4E41;
+}
+
+#second .second-container .main-left .connected > div .connect:nth-of-type(4):hover div:first-of-type span {
+  color: #B11D7B;
+}
+
 #second .second-container .main-left .connected > div .connect div:first-of-type {
   width: 30%;
   height: 100%;
   border-right: 1px solid #cccccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#second .second-container .main-left .connected > div .connect div:first-of-type span {
+  display: block;
+  font-size: 1.2em;
+  -webkit-transition: color .2s ease-in-out;
+  transition: color .2s ease-in-out;
 }
 
 #second .second-container .main-left .connected > div .connect div:last-of-type {
   width: 70%;
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #second .second-container .main-left .connected > div .connect div:last-of-type p {
   margin: 0;
   text-align: center;
+  font-size: .9em;
 }
 
 #second .second-container .main-left .cloggers {

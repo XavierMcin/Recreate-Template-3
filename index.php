@@ -22,7 +22,7 @@
 
         <?php include "includes/header.php"; ?>
 
-        <!-- <?php include "includes/navigation.php"; ?> -->
+        <?php include "includes/navigation.php"; ?>
 
 
 
@@ -599,7 +599,7 @@
 
                                 <div class="connect">
 
-                                    <div><span></span></div>
+                                    <div><span class="fab fa-facebook-f"></span></div>
 
                                     <div>
                                         <p>80,000</p>
@@ -610,7 +610,7 @@
 
                                 <div class="connect">
 
-                                    <div><span></span></div>
+                                    <div><span class="fab fa-twitter"></span></div>
 
                                     <div>
                                         <p>80,000</p>
@@ -621,7 +621,7 @@
 
                                 <div class="connect">
 
-                                    <div><span></span></div>
+                                    <div><span class="fab fa-google-plus-g"></span></div>
 
                                     <div>
                                         <p>80,000</p>
@@ -632,7 +632,7 @@
 
                                 <div class="connect">
 
-                                    <div><span></span></div>
+                                    <div><span class="fab fa-instagram"></span></div>
 
                                     <div>
                                         <p>80,000</p>

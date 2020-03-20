@@ -9,6 +9,7 @@
 html, body {
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 html {
@@ -53,9 +54,227 @@ header {
             width: 250px;
             height: 100%;
             background-color: rgb(29, 104, 48);
+            @include flexBox(row);
+            align-items: center;
+
+            & > div {
+                width: 100%;
+                height: 25px;
+                @include flexBox(row);
+                justify-content: flex-end;
+
+                div {
+                    @include flexBox(row);
+                    justify-content: center;
+                    align-items: center;
+                    color: #ffffff;
+                    transition: color .2s ease-in-out;
+                    font-size: 1.1em;
+
+                    &:hover {
+                        color: #777;
+                    }
+                }
+
+                .account {
+                    width: 25px;
+                    height: 100%;
+                    margin-right: 25px;
+                }
+
+                .menu {
+                    width: 25px;
+                    height: 100%;
+                    margin-right: 25px;
+                }
+
+                input {
+                    width: 0;
+                    height: 100%;
+                    border: none;
+                    transition: width .5s ease-in-out;
+                    @include imgCurve();
+
+                    &.tap {
+                        width: 75%;
+                        padding-left: 10px;
+                        margin-right: 10px;
+                    }
+                }
+
+                .search {
+                    width: 25px;
+                    height: 100%;
+                }
+            }
         }
     }
 }
+
+
+
+
+
+
+aside {
+    width: 25%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 5;
+    background-color: #ffffff;
+    @include flexBox(row);
+    justify-content: center;
+    transform: translateX(100%);
+    transition: transform .3s ease-in-out;
+
+    &.clicked {
+        transform: translateX(0);
+    }
+
+    nav {
+        width: 85%;
+        height: 80%;
+        margin-top: 25px;
+        @include flexBox(column);
+
+        h3 {
+            margin: 0 0 12px 0;
+            text-transform: uppercase;
+        }
+
+        ul {
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+
+            li {
+                list-style: none;
+            }
+        }
+
+        .close-button {
+            width: 100%;
+            height: 25px;
+            position: relative;
+
+            span {
+                display: block;
+                width: 25px;
+                height: 25px;
+                position: absolute;
+                right: 0;
+                @include flexBox(row);
+                justify-content: center;
+                align-items: center;
+                font-size: 1.1em;
+            }
+        }
+
+        .about-nav {
+            width: 100%;
+            height: 105px;
+            margin-top: 25px;
+
+            p {
+                font-size: .9em;
+                color: #777;
+            }
+        }
+
+        .authors-nav {
+            width: 100%;
+            height: 150px;
+            margin-top: 25px;
+
+            li {
+                margin-bottom: 10px;
+                color: #777;
+            }
+        }
+
+        .categories-nav {
+            width: 100%;
+            height: 150px;
+            margin-top: 25px;
+
+            li {
+                margin-bottom: 10px;
+                color: #777;
+            }
+        }
+
+        .social-nav {
+            width: 100%;
+            height: 80px;
+            margin-top: 25px;
+
+            ul {
+                width: 100%;
+                height: 28px;
+                padding: 0;
+                margin: 0;
+                @include flexBox(row);
+
+                li {
+                    list-style: none;
+                    width: 28px;
+                    height: 28px;
+                    margin-right: 20px;
+                    @include flexBox(row);
+                    justify-content: center;
+                    align-items: center;
+                    border: 2px solid #514f50;
+                    border-radius: 50%;
+                    transition: border-color .2s ease-in-out;
+
+                    span {
+                        display: block;
+                        color: #514f50;
+                        transition: color .2s ease-in-out;
+                    }
+
+                    &:hover {
+                        border-color: $mainColor;
+
+                        span {
+                            color: $mainColor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+#overlay {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.363);
+    z-index: 3;
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: opacity .2s ease-in-out;
+
+    &.clicked {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 main {
     overflow: hidden;
@@ -744,20 +963,48 @@ main {
                             @include flexBox(row);
                             @include imgCurve();
 
+                            &:nth-of-type(1):hover div:first-of-type span {
+                                color: #4267B2;
+                            }
+
+                            &:nth-of-type(2):hover div:first-of-type span {
+                                color: #71C9F8;
+                            }
+
+                            &:nth-of-type(3):hover div:first-of-type span {
+                                color: #DC4E41;
+                            }
+
+                            &:nth-of-type(4):hover div:first-of-type span {
+                                color: #B11D7B;
+                            }
+
                             div {
                                 &:first-of-type {
                                     width: 30%;
                                     height: 100%;
                                     border-right: 1px solid #cccccc;
+                                    @include flexBox(row);
+                                    justify-content: center;
+                                    align-items: center;
+
+                                    span {
+                                        display: block;
+                                        font-size: 1.2em;
+                                        transition: color .2s ease-in-out;
+                                    }
                                 }
 
                                 &:last-of-type {
                                     width: 70%;
                                     height: 100%;
+                                    @include flexBox(column);
+                                    justify-content: center;
 
                                     p {
                                         margin: 0;
                                         text-align: center;
+                                        font-size: .9em;
                                     }
                                 }
                             }
