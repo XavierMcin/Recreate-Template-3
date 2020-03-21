@@ -2099,10 +2099,18 @@ main {
   color: #6665DD;
 }
 
-#second .second-container .main-left .instagram > div {
+#second .second-container .main-left .instagram #jssor_1 {
   width: 100%;
-  height: 77%;
+  height: 168px !important;
   background-color: #1b850d;
+}
+
+#second .second-container .main-left .instagram #jssor_1 [data-u="loading"] {
+  height: 100% !important;
+}
+
+#second .second-container .main-left .instagram #jssor_1 [data-u="slides"] {
+  height: 100% !important;
 }
 
 #second .second-container .main-right {
