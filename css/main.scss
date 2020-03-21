@@ -17,8 +17,14 @@ html {
 }
 
 body {
+    width: 100%;
     min-height: 100%;
     font-family: 'Sen', sans-serif;
+
+    &.noscroll {
+        position: fixed;
+        overflow-y: scroll;
+    }
 }
 
 
@@ -1097,12 +1103,8 @@ main {
                         height: 168px !important;
                         background-color: rgb(27, 133, 13);
 
-                        [data-u="loading"] {
-                            height: 100% !important;
-                        }
-
-                        [data-u="slides"] {
-                            height: 100% !important;
+                        [data-u="slides"], [data-u="image"] {
+                            height: 168px !important;
                         }
                     }
                 }
@@ -1818,3 +1820,23 @@ footer {
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import "./contact";

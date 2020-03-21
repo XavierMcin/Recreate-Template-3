@@ -14,8 +14,14 @@ html {
 }
 
 body {
+  width: 100%;
   min-height: 100%;
   font-family: 'Sen', sans-serif;
+}
+
+body.noscroll {
+  position: fixed;
+  overflow-y: scroll;
 }
 
 /*===========================*/
@@ -2105,12 +2111,8 @@ main {
   background-color: #1b850d;
 }
 
-#second .second-container .main-left .instagram #jssor_1 [data-u="loading"] {
-  height: 100% !important;
-}
-
-#second .second-container .main-left .instagram #jssor_1 [data-u="slides"] {
-  height: 100% !important;
+#second .second-container .main-left .instagram #jssor_1 [data-u="slides"], #second .second-container .main-left .instagram #jssor_1 [data-u="image"] {
+  height: 168px !important;
 }
 
 #second .second-container .main-right {
@@ -3137,5 +3139,161 @@ footer .bFooter p {
 footer .bFooter p span {
   color: #6665DD;
   cursor: pointer;
+}
+
+main.contact-page {
+  overflow: hidden;
+  margin-top: 0;
+}
+
+#contact-form {
+  width: 100%;
+  height: 780px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#contact-form .form-container {
+  width: 100%;
+  height: 100%;
+  max-width: 1140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contact-form .form-container > div {
+  width: 100%;
+  height: 68%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#contact-form .form-container > div .form-message {
+  width: 50%;
+  height: 100%;
+  border-right: 1px solid black;
+}
+
+#contact-form .form-container > div .form-message h2 {
+  font-size: 3em;
+  color: #dddddd;
+  margin: 0;
+}
+
+#contact-form .form-container > div .form-message h3 {
+  font-size: 3.3em;
+  margin: 0 0 25px 0;
+  color: #020004;
+}
+
+#contact-form .form-container > div .form-message p {
+  width: 90%;
+  font-size: 1.1em;
+  line-height: 30px;
+}
+
+#contact-form .form-container > div .user-form {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#contact-form .form-container > div .user-form form {
+  width: 90%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+#contact-form .form-container > div .user-form form [name="name"], #contact-form .form-container > div .user-form form [name="email"], #contact-form .form-container > div .user-form form [name="subject"], #contact-form .form-container > div .user-form form [name="phoneNumber"] {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 12px 0;
+  background-color: transparent;
+  margin-bottom: 15px;
+}
+
+#contact-form .form-container > div .user-form form [name="name"]:focus, #contact-form .form-container > div .user-form form [name="email"]:focus, #contact-form .form-container > div .user-form form [name="subject"]:focus, #contact-form .form-container > div .user-form form [name="phoneNumber"]:focus {
+  outline: none;
+}
+
+#contact-form .form-container > div .user-form form textarea {
+  resize: vertical;
+  max-height: 282px;
+  min-height: 50px;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 12px 0;
+  background-color: transparent;
+  margin-bottom: 15px;
+}
+
+#contact-form .form-container > div .user-form form textarea:focus {
+  outline: none;
+}
+
+#contact-form .form-container > div .user-form form [type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin: 15px 0 75px 0;
+}
+
+#contact-form .form-container > div .user-form form [type="submit"] {
+  position: absolute;
+  bottom: 0;
+  width: 178px;
+  height: 52px;
+  background-color: #020004;
+  color: #dddddd;
+  font-size: 1.1em;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  overflow: hidden;
+  -webkit-transition: background-color .1s ease-in-out, color .1s ease-in-out;
+  transition: background-color .1s ease-in-out, color .1s ease-in-out;
+}
+
+#contact-form .form-container > div .user-form form [type="submit"]:hover {
+  background-color: #6665DD;
+  color: #212529;
 }
 /*# sourceMappingURL=main.css.map */
