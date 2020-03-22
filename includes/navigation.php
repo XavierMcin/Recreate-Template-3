@@ -37,4 +37,14 @@
     </nav>
 </aside>
 
-<div id="overlay"></div>
+<div id="overlay">
+
+    <div id="video-player">
+
+    <h2>Watch Our Video</h2>
+
+    <video src="video/video1.mp4" controls></video>
+
+    </div>
+
+</div>

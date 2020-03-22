@@ -902,7 +902,7 @@
 
                             <div>
 
-                                <div class="vids">
+                                <div class="vids vid1">
                                     <div>
                                         <img src="img/video-pic1.png" alt="">
 
@@ -911,7 +911,7 @@
                                     <h3>A New Report Shows The Deep Frying Isn't All That Bad</h3>
                                 </div>
 
-                                <div class="vids">
+                                <div class="vids vid2">
                                     <div>
                                         <img src="img/video-pic2.png" alt="">
 
