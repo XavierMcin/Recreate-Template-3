@@ -13,7 +13,7 @@
         <![endif]-->
 
 
-        <?php include "includes/slider.php"; ?>
+
 
 
 
@@ -703,58 +703,7 @@
                         <div class="instagram">
                             <h2>We're On <span>Instagram</span></h2>
 
-                            <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:150px;overflow:hidden;visibility:hidden;">
-                                <!-- Loading Screen -->
-                                <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
-                                    <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
-                                </div>
-                                <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:150px;overflow:hidden;">
-                                    <div>
-                                        <img data-u="image" src="img/practices-pic4.jpg" />
-                                    </div>
-                                    <div>
-                                        <img data-u="image" src="img/practices-pic4.jpg" />
-                                    </div>
-                                    <div>
-                                        <img data-u="image" src="img/practices-pic4.jpg" />
-                                    </div>
-                                    <div>
-                                        <img data-u="image" src="img/practices-pic4.jpg" />
-                                    </div>
-                                    <div>
-                                        <img data-u="image" src="img/practices-pic4.jpg" />
-                                    </div>
-                                    <div>
-                                        <img data-u="image" src="" />
-                                    </div>
-                                    <div>
-                                        <img data-u="image" src="" />
-                                    </div>
-                                    <div>
-                                        <img data-u="image" src="" />
-                                    </div>
-                                    <div>
-                                        <img data-u="image" src="" />
-                                    </div>
-                                    <div>
-                                        <img data-u="image" src="" />
-                                    </div>
-                                    <div>
-                                        <img data-u="image" src="" />
-                                    </div>
-                                    <div>
-                                        <img data-u="image" src="" />
-                                    </div>
-                                </div><a data-scale="0" href="https://www.jssor.com" style="display:none;position:absolute;">web animation composer</a>
-                                <!-- Bullet Navigator -->
-                                <div data-u="navigator" class="jssorb057" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
-                                    <div data-u="prototype" class="i" style="width:14px;height:14px;">
-                                        <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                                            <circle class="b" cx="8000" cy="8000" r="5000"></circle>
-                                        </svg>
-                                    </div>
-                                </div>
-                            </div>
+                            <div></div>
                         </div>
 
 

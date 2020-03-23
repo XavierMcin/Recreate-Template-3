@@ -38,13 +38,13 @@
 
                         <form action="#" method="post">
 
-                            <input type="text" name="name" placeholder="Full name" required>
+                            <input type="text" name="name" placeholder="Full name" autocomplete="off" required>
 
-                            <input type="email" name="email" placeholder="Your email" required>
+                            <input type="email" name="email" placeholder="Your email" autocomplete="off" required>
 
-                            <input type="text" name="subject" placeholder="Subject" required>
+                            <input type="text" name="subject" placeholder="Subject" autocomplete="off" required>
 
-                            <input type="number" name="phoneNumber" placeholder="Phone number" required>
+                            <input type="number" name="phoneNumber" placeholder="Phone number" autocomplete="off" required>
 
                             <textarea name="message" id="form-message" cols="30" rows="10" placeholder="Type your message here" required></textarea>
 
