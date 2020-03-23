@@ -2163,7 +2163,7 @@ main {
 
 #second .second-container .main-left .instagram {
   width: 100%;
-  height: 285px;
+  height: auto;
   overflow: hidden;
   margin-top: 50px;
 }
@@ -2178,10 +2178,36 @@ main {
   color: #6665DD;
 }
 
-#second .second-container .main-left .instagram > div {
-  width: 100%;
-  height: 70%;
-  background-color: green;
+#second .second-container .main-left .instagram #jssor_1 {
+  height: 168px !important;
+}
+
+#second .second-container .main-left .instagram #jssor_1 div {
+  height: 168px !important;
+}
+
+#second .second-container .main-left .instagram #jssor_1 > div:first-of-type > div {
+  top: 0 !important;
+  -webkit-transform: none !important;
+          transform: none !important;
+}
+
+#second .second-container .main-left .instagram #jssor_1 > div:first-of-type > div [data-u="slides"]:last-of-type > div {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#second .second-container .main-left .instagram #jssor_1 > div:first-of-type > div [data-u="slides"]:last-of-type > div img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#second .second-container .main-left .instagram #jssor_1 > div:last-of-type {
+  height: 15px !important;
+}
+
+#second .second-container .main-left .instagram #jssor_1 > div:last-of-type div {
+  height: inherit !important;
 }
 
 #second .second-container .main-right {

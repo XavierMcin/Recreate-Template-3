@@ -1172,7 +1172,7 @@ main {
 
                 .instagram {
                     width: 100%;
-                    height: 285px;
+                    height: auto;
                     overflow: hidden;
                     margin-top: $sectionSpace;
 
@@ -1180,10 +1180,38 @@ main {
                         @include sectionTitle();
                     }
 
-                    & > div {
-                        width: 100%;
-                        height: 70%;
-                        background-color: green;
+                    #jssor_1 {
+                        height: 168px !important;
+                        
+
+                        div {
+                            height: 168px !important;
+                        }
+
+                        & > div:first-of-type {
+                            & > div {
+                                top: 0 !important;
+                                transform: none !important;
+
+                                [data-u="slides"]:last-of-type {
+                                    & > div {
+                                        @include imgCurve();
+
+                                        img {
+                                            object-fit: cover;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        & > div:last-of-type {
+                            height: 15px !important;
+
+                            div {
+                                height: inherit !important;
+                            }
+                        }
                     }
                 }
 

@@ -14,7 +14,7 @@
 
 
 
-
+ 
 
 
         <!-- ###### -->
@@ -23,7 +23,7 @@
 
 
 
-
+        <?php include "includes/slider.php"; ?>
 
         <?php include "includes/header.php"; ?>
 
@@ -703,9 +703,59 @@
                         <div class="instagram">
                             <h2>We're On <span>Instagram</span></h2>
 
-                            <div></div>
+                            <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:150px;overflow:hidden;visibility:hidden;">
+                                <!-- Loading Screen -->
+                                <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+                                    <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+                                </div>
+                                <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:150px;overflow:hidden;">
+                                    <div>
+                                        <img data-u="image" src="img/clogger-pic1.jpg" />
+                                    </div>
+                                    <div>
+                                        <img data-u="image" src="img/reads-pic1.jpg" />
+                                    </div>
+                                    <div>
+                                        <img data-u="image" src="img/reads-pic2.jpg" />
+                                    </div>
+                                    <div>
+                                        <img data-u="image" src="img/health-pic3.jpg" />
+                                    </div>
+                                    <div>
+                                        <img data-u="image" src="img/health-pic2.jpg" />
+                                    </div>
+                                    <div>
+                                        <img data-u="image" src="img/articles-pic1.jpg" />
+                                    </div>
+                                    <div>
+                                        <img data-u="image" src="img/reads-pic3.jpg" />
+                                    </div>
+                                    <div>
+                                        <img data-u="image" src="img/practices-pic2.jpg" />
+                                    </div>
+                                    <div>
+                                        <img data-u="image" src="img/first-pic1.jpg" />
+                                    </div>
+                                    <div>
+                                        <img data-u="image" src="img/articles-pic3.jpg" />
+                                    </div>
+                                    <div>
+                                        <img data-u="image" src="img/clogger-pic2.jpg" />
+                                    </div>
+                                    <div>
+                                        <img data-u="image" src="img/trailhouse.jpg" />
+                                    </div>
+                                </div><a data-scale="0" href="https://www.jssor.com" style="display:none;position:absolute;">web animation composer</a>
+                                <!-- Bullet Navigator -->
+                                <div data-u="navigator" class="jssorb057" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+                                    <div data-u="prototype" class="i" style="width:14px;height:14px;">
+                                        <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                                            <circle class="b" cx="8000" cy="8000" r="5000"></circle>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-
 
 
 
