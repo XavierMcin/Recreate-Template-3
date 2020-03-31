@@ -164,7 +164,7 @@
                                         <img src="img/articles-pic3.jpg" alt="young women eating">
 
                                         <div>
-                                            <p>Young Wome Sitting Down <br> <span>Eating</span></p>
+                                            <p>Young Women Sitting Down <br> <span>Eating</span></p>
                                             <p>Mar.15.2020</p>
                                         </div>
                                     </div>
@@ -1165,6 +1165,7 @@
 
 
         <!-- SCRIPTS -->
+        <script type="text/javascript">jssor_1_slider_init();</script>
         <?php include "includes/scripts.php"; ?>
     </body>
 </html>

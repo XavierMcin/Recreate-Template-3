@@ -316,47 +316,6 @@ aside {
     }
 }
 
-// .video-container {
-//     width: auto;
-//     height: 100vh;
-//     background-color: greenyellow;
-//     position: fixed;
-//     top: 0;
-//     left: 50%;
-//     transform: translateX(-50%);
-//     transform: scale(0);
-//     z-index: 6;
-//     @include flexBox(row);
-//     align-items: center;
-//     transition: transform .3s ease-in-out;
-
-//     &.opened {
-//         transform: scale(1);
-//     }
-
-//     #video-player {
-//         width: 550px;
-//         height: 420px;
-//         background-color: goldenrod;
-//         overflow: hidden;
-//         @include flexBox(column);
-//         align-items: center;
-    
-//         h2 {
-//             margin: 25px 0;
-//         }
-    
-//         video {
-//             width: 80%;
-//             height: 70%;
-//             object-fit: cover;
-//         }
-//     }
-// }
-
-
-
-
 
 
 
@@ -1829,9 +1788,27 @@ footer {
                             transition: color .2s ease-in-out;
                         }
 
-                        &:hover {
+                        &:first-of-type:hover {
                             span {
-                                color: rgb(31, 9, 156);
+                                color: #4267B2;
+                            }
+                        }
+
+                        &:nth-of-type(2):hover {
+                            span {
+                                color: #0271AE;
+                            }
+                        }
+
+                        &:nth-of-type(3):hover {
+                            span {
+                                color: #71C9F8;
+                            }
+                        }
+
+                        &:last-of-type:hover {
+                            span {
+                                color: #DC4E41;
                             }
                         }
                     }
@@ -1946,3 +1923,5 @@ footer {
 
 
 @import "./contact";
+
+@import "./blogger";

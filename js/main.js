@@ -44,21 +44,10 @@ videos.forEach(function(curr) {
         pageBody.style.top = -(pageYOffset) + "px";
         overlay.classList.add('clicked');
         pageBody.classList.add('noscroll');
-        if (curr.classList.contains('vid1')) {
-            vidSrc.src = "video/video1.mp4";
-        } else if (curr.classList.contains('vid2')) {
-            vidSrc.src = "video/video2.mp4";
-        }
+        (curr.classList.contains('vid1')) ? vidSrc.src = "video/video1.mp4" : vidSrc.src = "video/video2.mp4";
         vidPlayer.classList.add('opened');
     };
 });
-
-// video1.onclick = function() {
-//     exitY = scroller;
-//     pageBody.style.top = -(pageYOffset) + "px";
-//     overlay.classList.add('clicked');
-//     pageBody.classList.add('noscroll');
-// };
 
 overlay.onclick = function() {
     (sideMenu.classList == "clicked") ? sideMenu.classList.remove('clicked') : null;
